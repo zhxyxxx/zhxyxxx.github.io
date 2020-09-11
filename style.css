@@ -1,0 +1,77 @@
+body{
+  font-size: 120%;
+  padding-top: 100px;
+}
+
+.nav{
+  position: relative;
+}
+
+.nav li a{
+  padding: 10px 40px;
+}
+
+.nav-light .nav-item .nav-link{
+  color: #000;
+}
+
+.nav-light .nav-item .nav-link:hover, .nav-light .nav-item .nav-link:focus{
+  color: #AAA;
+}
+
+.main-con{
+  padding-top: 75px;
+  padding-bottom: 70px;
+}
+
+.odd-con{
+  background-color: #EEE;
+}
+
+.last-con{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.inner-con{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+}
+
+.first-inner-con{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+
+.custom-link:hover, .custom-link:focus{
+  text-decoration: none;
+}
+
+.indent{
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.title{
+  font-size: large;
+}
+
+#edu-icon{
+  list-style-position: inside;
+  list-style-image: url(resources/images/book.svg);
+}
+
+.icon{
+  color: #000;
+}
+
+.icon:hover, .icon:focus{
+  color: #000;
+}
+
+.img-round{
+  border-radius: 50%;
+}

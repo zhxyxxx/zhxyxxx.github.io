@@ -1,12 +1,143 @@
 <!DOCTYPE html>
-<html lang=jp dir="ltr">
+<html lang="ja" dir="ltr">
   <head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Maybe don't support IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Responsive design -->
     <title>Xinyu Zhang</title>
   </head>
   <body>
-    <div>
-      <h1>Hello World!</h1>
+    <div class="fixed-top">
+      <ul class="card-header nav justify-content-center bg-light nav-light">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#research">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
+
+    <div class="container-fluid main-con" id-"about">
+      <div class="container-fluid first-inner-con">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="./resources/images/me.png" class="img-fluid img-round img-thumbnail" alt="This is me.">
+          </div>
+          <div class="col-sm-8">
+            <h3 class="display-4">張 新宇</h3>
+            <p class="small">
+              東京工業大学 学士4年<br>
+              情報理工学院 情報工学系
+            </p>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="icon" href="https://github.com/zhxyxxx" target=”_blank”><i class="fab fa-github fa-2x"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="icon" href="https://twitter.com/zhxyxxx" target=”_blank”><i class="fab fa-twitter fa-2x"></i></a>
+              </li>
+            </ul>
+            <p>
+              こんにちは！<br>
+              横田理央研究室学士4年の張です．現在は機械学習，特に情報行列や汎化性能に関する理論を勉強しています．将来は，深層学習の汎化性能予測や継続学習について研究していきたいと思っております．<br>
+            </p>
+            <a href="./resources/CV.pdf" class="link custom-link" target=”_blank”>resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid main-con odd-con" id="education">
+      <div class="container inner-con">
+        <h3 style="text-align: center">Education</h3>
+        <ul id="edu-icon">
+          <li>
+            <p class="indent">
+              2013-2016<br>
+              <span class="title">Shanghai Yanan High School</span>
+            </p>
+          </li>
+          <li>
+            <p class="indent">
+              2017-now<br>
+              <span class="title">東京工業大学</span><br>
+              <span class="text-muted small">サークル: ストリートダンスサークル H2O</span><br>
+              <span class="text-muted small">GPA: 3.73/4.50</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid main-con" id="experience">
+      <div class="container inner-con">
+        <h3 style="text-align: center">Experience</h3>
+        <ul>
+          <p class="small">Coming soon...</p>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid main-con odd-con" id="research">
+      <div class="container inner-con">
+        <h3 style="text-align: center">Research</h3>
+        <ul>
+          <p class="small">Coming soon...</p>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid main-con" id="works">
+      <div class="container inner-con">
+        <h3 style="text-align: center">Works</h3>
+        <ul>
+          <p class="small">Coming soon...</p>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid last-con odd-con" id="contact">
+      <div class="container inner-con">
+        <h3 style="text-align: center">Contact</h3>
+        <p>
+          zhang.x.av_at_m.titech.ac.jp<br>
+        </p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a class="icon" href="https://github.com/zhxyxxx" target=”_blank”><i class="fab fa-github fa-lg"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="icon" href="https://twitter.com/zhxyxxx" target=”_blank”><i class="fab fa-twitter fa-lg"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card-footer text-muted text-center">
+      <small>Copyright &copy; 2020 Xinyu Zhang.</small>
+    </div>
+
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/220a5a6834.js" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
