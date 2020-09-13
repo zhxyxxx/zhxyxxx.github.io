@@ -3,6 +3,18 @@ body{
   padding-top: 100px;
 }
 
+.English{
+  display: none;
+}
+
+.Chinese{
+  display: none;
+}
+
+.Japanese{
+  display: block;
+}
+
 .nav{
   position: relative;
 }
@@ -14,6 +26,9 @@ body{
 }
 
 @media only screen and (max-width: 651px){
+  body{
+    padding-top: 25px;
+  }
   .nav-link{
     font-size:55%;
     padding: .5rem .5rem;
@@ -26,6 +41,10 @@ body{
 
 .nav-light .nav-item .nav-link:hover, .nav-light .nav-item .nav-link:focus{
   color: #AAA;
+}
+
+.dropdown-item:active{
+  background: #AAA;
 }
 
 .main-con{
@@ -85,7 +104,6 @@ body{
   border-radius: 50%;
 }
 
-
 /* scroll to top botton */
 #pageTop{
   display: none;
@@ -106,4 +124,9 @@ body{
 #pageTop a:hover{
   text-decoration: none;
   opacity: 0.7;
+}
+
+.bili{
+  margin-top: -1em;
+  margin-left: 0.1em;
 }
