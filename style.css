@@ -3,6 +3,7 @@ body{
   padding-top: 100px;
 }
 
+/* language display */
 .English{
   display: none;
 }
@@ -15,6 +16,7 @@ body{
   display: block;
 }
 
+/* navbar */
 .nav{
   position: relative;
 }
@@ -47,6 +49,7 @@ body{
   background: #AAA;
 }
 
+/* container */
 .main-con{
   padding-top: 75px;
   padding-bottom: 70px;
@@ -74,24 +77,29 @@ body{
   max-width: 1100px;
 }
 
+/* link */
 .custom-link:hover, .custom-link:focus{
   text-decoration: none;
 }
 
+/* indent lines (from second line) */
 .indent{
   text-indent: -1em;
   padding-left: 1em;
 }
 
+/* large font */
 .title{
   font-size: large;
 }
 
+/* list icon */
 #edu-icon{
   list-style-position: inside;
   list-style-image: url(resources/images/book.svg);
 }
 
+/* icon with link */
 .icon{
   color: #000;
 }
@@ -100,6 +108,13 @@ body{
   color: #000;
 }
 
+/* deal none font awesome icon */
+.bili{
+  margin-top: -1em;
+  margin-left: 0.1em;
+}
+
+/* round image */
 .img-round{
   border-radius: 50%;
 }
@@ -124,9 +139,4 @@ body{
 #pageTop a:hover{
   text-decoration: none;
   opacity: 0.7;
-}
-
-.bili{
-  margin-top: -1em;
-  margin-left: 0.1em;
 }
