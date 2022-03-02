@@ -104,6 +104,11 @@ body{
   list-style-image: url(resources/images/briefcase-fill.svg);
 }
 
+#research-icon{
+  list-style-position: inside;
+  list-style-image: url(resources/images/file-earmark-text.svg);
+}
+
 /* icon with link */
 .icon{
   color: #000;
